@@ -1,0 +1,39 @@
+.myswiper {
+    width: 100%;
+}
+
+.myswiper_slide {
+    -webkit-transform: translateZ(0);
+}
+
+.myswiper_slide img {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+}
+
+.swiper_prev,
+.swiper_next {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 1.8em;
+    height: 1.8em;
+    z-index: 1;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 0.5em;
+    background-position: center;
+    background-color: var(--white);
+    border-radius: 50%;
+}
+
+.swiper_prev {
+    left: 1em;
+    background-image: url('assets/icon-previous-swiper.svg');
+}
+
+.swiper_next {
+    right: 1em;
+    background-image: url('assets/icon-next-swiper.svg');
+}

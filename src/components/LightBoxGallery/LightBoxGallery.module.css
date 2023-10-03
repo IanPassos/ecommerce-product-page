@@ -1,0 +1,13 @@
+.current_image {
+    height: 400px;
+    width: 400px;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.container_images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}

@@ -1,0 +1,30 @@
+.cart {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font: inherit;
+}
+
+.cart_icon {
+    fill: var(--dark-grayish-blue);
+    width: 22px;
+    height: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 70%;
+    padding: 0px 5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 761px) {
+    .cart_container {
+        position: relative;
+    }
+}

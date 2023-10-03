@@ -1,0 +1,14 @@
+.hamburger {
+    height: 1.2rem;
+    width: 1.2rem;
+    background: url('/src/assets/icon-menu.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hamburger.is_open {
+    background: url('/src/assets/icon-close-menu.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+}

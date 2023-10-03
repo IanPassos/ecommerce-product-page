@@ -1,0 +1,14 @@
+
+@media screen and (min-width: 761px) {
+    .main_container {
+        margin: 3.5em 0 3.5em 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .product_container {
+        margin-top: 2em;
+        margin-right: 2em;
+        max-width: 500px;
+    }
+}
