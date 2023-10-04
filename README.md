@@ -40,5 +40,5 @@ Users should be able to:
 ## Author
 
 - Github - [Ian Rangel Passos](https://github.com/IanPassos)
-- Vercel [Ianrpassos](https://vercel.com/ianrpassos)
+- Vercel - [Ianrpassos](https://vercel.com/ianrpassos)
 - Frontend Mentor - [IanPassos](https://www.frontendmentor.io/profile/IanPassos)
