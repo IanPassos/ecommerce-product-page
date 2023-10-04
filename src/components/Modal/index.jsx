@@ -5,12 +5,7 @@ import { ReactComponent as IconNext } from 'assets/icon-next.svg'
 import { ReactComponent as IconPrevious } from 'assets/icon-previous.svg'
 import Thumbnail from 'components/Thumbnail';
 
-export default function Modal({ activeGalleryThumbnail, clickedImage, handleRotationRight, handleRotationLeft, setClickedImage, images, activeThumbnail, handleThumbnailGalleryClick }) {
-
-    const handleCloseClick = () => {
-        setClickedImage(null)
-    }
-
+export default function Modal({ handleCloseClick, activeGalleryThumbnail, clickedImage, handleRotationRight, handleRotationLeft, setClickedImage, images, handleThumbnailGalleryClick }) {
     return (
         <div className={styles.overlay}>
             <button className={styles.overlay_arrows__left} onClick={() => handleRotationLeft()}>

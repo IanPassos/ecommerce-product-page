@@ -28,6 +28,12 @@ export default function LightBoxGallery({ images }) {
         setActiveGalleryThumbnail(images[currentIndex].id)
     }
 
+    const handleCloseClick = () => {
+        setCurrentImage(clickedImage)
+        setActiveThumbnail(activeGalleryThumbnail)
+        setClickedImage(null)
+    }
+
     const handleRotationLeft = () => {
         const totalLength = images.length;
         if (currentIndex === 0) {
@@ -70,6 +76,7 @@ export default function LightBoxGallery({ images }) {
                 activeThumbnail={activeThumbnail}
                 handleThumbnailGalleryClick={handleThumbnailGalleryClick}
                 activeGalleryThumbnail={activeGalleryThumbnail}
+                handleCloseClick={handleCloseClick}
             />}
             <img className={styles.current_image} src={currentImage} alt="Sneaker" onClick={() => handleImageClick()} />
             <div className={styles.container_images}>
